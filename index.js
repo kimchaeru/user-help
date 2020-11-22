@@ -7,7 +7,7 @@ const { join } = require('path');
 
 client.commands = new Discord.Collection();
 
-const prefix = '/' //접두사
+const prefix = '.' //접두사
 
 
 const commandFile = readdirSync(join(__dirname, "commands")).filter(file => file.endsWith("js"));
